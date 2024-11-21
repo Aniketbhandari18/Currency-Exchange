@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://png.pngtree.com/thumb_back/fh260/back_our/20200701/ourmid/pngtree-blue-gradient-stock-currency-creative-synthesis-display-board-esp-background-image_346276.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 8px;
+    background-color: white;
+    background-color: #ebebeb;
+    box-shadow: 0px 0px 10px black;
+    padding: 2rem;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.input{
+    font-size: 1.3rem;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.input>:first-child{
+    display: block;
+    margin-bottom: 4px;
+}
+.input input{
+    font-size: 1rem;
+    width: 100%;
+    padding: 4px 8px;
+}
+.input input:focus{
+    outline: none;
+}
+
+select{
+    background: transparent;
+    cursor: pointer;
+    padding: 4px 2px;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+}
+
+.currencies{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.from p, .to p{
+    margin-bottom: 4px;
+    font-size: 1.1rem;
+}
+
+.country{
+    border: 1px solid lightgray;
+    border: 1px solid #8d8d8d;
+    border-radius: 4px;
+    padding: 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.country img{
+    /* width: 42px; */
+    height: 45px;
+}
+i{
+    margin-top: 23px;
+}
+
+.rate{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color:firebrick;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 0px;
+    cursor: pointer;
+}
