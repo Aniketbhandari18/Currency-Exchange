@@ -5,6 +5,7 @@
 }
 
 body{
+    min-width: 315px;
     background: url(https://png.pngtree.com/thumb_back/fh260/back_our/20200701/ourmid/pngtree-blue-gradient-stock-currency-creative-synthesis-display-board-esp-background-image_346276.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,4 +103,36 @@ button{
     border-radius: 6px;
     padding: 8px 0px;
     cursor: pointer;
+}
+
+
+@media (max-width: 420px){
+    .container{
+        padding: 1rem;
+    }
+    .country img{
+        height: 35px;
+    }
+}
+
+@media (max-width: 355px){
+    .container h2{
+        font-size: 1.5rem;
+    }
+    .country{
+        padding: 0px 4px;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 320px){
+    .container{
+        width: 290px;
+    }
+    .country{
+        padding: 0px 4px;
+    }
+    .currencies{
+        gap: 11px;
+    }
 }
